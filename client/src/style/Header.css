@@ -1,0 +1,42 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  background-color: white;
+  padding: 0 20px;
+}
+
+.navbar-title {
+  font-size: 22px;
+  font-weight: bold;
+  color: goldenrod;
+  text-align: center;
+  flex-grow: 1;
+  margin: 0 20px;
+}
+
+.navbar-img-container {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-img {
+  width: 20px;
+  height: 20px;
+  background-color: goldenrod;
+  border-radius: 50%;
+}
+
+.navbar-login-btn {
+  background-color: goldenrod;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+}
